@@ -81,7 +81,8 @@
       <button @click="rotateLeft" class="btn">向左翻</button>
       <button @click="rotateRight" class="btn">向右翻</button>
 
-      <a @click="down('base64')" class="btnx">上传封面(base64)</a>
+      <a @click="down('base64')" class="btnx">获取封面(base64)</a>
+      <a @click="down('blob')" class="btnx">上传封面(blob)</a>
 
     </div></div></el-col>
   </el-row>
